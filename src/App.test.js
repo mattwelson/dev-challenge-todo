@@ -9,6 +9,6 @@ test("renders learn react link", () => {
       <App />
     </MockedProvider>
   )
-  const linkElement = getByText(/learn react/i)
+  const linkElement = getByText(/#todo/i)
   expect(linkElement).toBeInTheDocument()
 })
